@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+	font-family: Redaction; 
+	font-size: 14px;
+	background-color: grey; 
+}
+
+#catalogo{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+
+#vetrina{
+	background-color: #ffffff;
+	height: 671px; 
+	width: 708px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.copertina {
+    border: 1px solid black;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.copertina img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 150px;
+    height: 230px;
+}
+.libro{
+	border: double black;
+	padding: 5px;
+	width: 220px;
+	height:320px;
+	float: left;
+	text-align: center;
+
+}
+.fotolibro {
+    width: 150px;
+    height: 230px;
+}
+#carrello {
+    display: inline-block;
+    padding-top: 5px;
+}
+#descrizione {
+	padding-right: 0px;
+	
+}
+#autrice {
+ font-weight: bold;
+}
+#prezzo {
+	float: left;
+	padding-top: 5px;
+	font-weight: bold;
+}
+ #titolo {
+ font-weight: bold;
+ font-size: 25px;
+ }
